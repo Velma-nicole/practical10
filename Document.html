@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            border-style: solid;
+            border-color: rgb(10, 105, 214);
+            border-width: 5px;
+            max-width: 1000px;
+            margin-left: 150px;
+            margin-top: 150px;
+            height: 350px;
+        }
+        h2 {
+            color: rgb(10, 105, 214);
+            margin-left: 50px;
+            font-size: 45px;
+        }
+
+    .email {
+        margin-left: 96px;
+        font-size: 20px;
+    }
+    .re-email{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .fname{
+        margin-left: 130px;
+        font-size: 20px;
+    }
+    button {
+        margin-left: 220px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>please join our email list</h2>
+        <form action="">
+            <div class="email">
+                <label for="emailaddress">Email Address</label>
+                <input type="email" name="emailaddress" id="emailaddress"  placeholder="Enter email">
+            </div>
+                <br>
+
+            <div class="re-email">
+                 <label for="Re-Enter">Re Enter email address</label>
+                 <input type="email" name="Re-Enter Email address" id="Re-Enter" placeholder="confirm email">
+                 <span style="color: rgb(253, 31, 31);">This entry must equal the first entry</span>
+            </div>
+                <br>
+
+            <div class="fname">
+                 <label for="fname">First name</label>
+                 <input type="text" name="fname" id="fname" >
+                 <span style="color:rgb(253, 31, 31) ;">this field is required</span>
+             </div>
+                <br>
+
+            <button type="submit">join our list</button>
+        </form>
+    </div>
+    
+</body>
+  </html>
